@@ -12,7 +12,7 @@
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
-    
+
         alert('Thank you for your valuable feedback' + username);
 
         console.log(username);
@@ -24,6 +24,7 @@
     document.getElementById('userDesignation').innerHTML = designation;
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
+    document.getElementById('userXP').innerHTML = document.getElementById('userExperience').value;
 
 document.getElementById('userInfo').style.display = 'block';
 
